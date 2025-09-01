@@ -8,7 +8,7 @@ lazy val MyCaosTeste = project.in(file("."))
     name := "MyCaosTeste",
     scalaVersion := "3.1.1",       // 2.13+ / 3.x
     scalaJSUseMainModuleInitializer := true,
-    Compile / mainClass := Some("src.com.joshua"),
+    Compile / mainClass := Some("com.joshua.Main"),
     Compile / fastLinkJS / scalaJSLinkerOutputDirectory :=
       baseDirectory.value / "lib" / "caos" / "tool" / "js" / "gen",
     libraryDependencies ++= Seq(

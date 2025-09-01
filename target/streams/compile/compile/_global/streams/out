@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\Users\Joshu\Desktop\MyCaosTeste\src\main\scala\com\joshua\MyConfigurator.scala:15:15 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m    [31m"Hello"[0m -> view(_ => {[0m
+[0m[[0m[31merror[0m] [0m[0m   |               [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |               Not found: view[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

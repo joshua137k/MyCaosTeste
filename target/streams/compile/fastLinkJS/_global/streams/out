@@ -1,9 +1,9 @@
 [0m[[0m[0minfo[0m] [0m[0mFast optimizing C:\Users\Joshu\Desktop\MyCaosTeste\lib\caos\tool\js\gen[0m
-[0m[[0m[31merror[0m] [0m[0mReferring to non-existent class src.com.joshua[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent class com.joshua.Main[0m
 [0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
-[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method static src.com.joshua.main([java.lang.String)void[0m
+[0m[[0m[31merror[0m] [0m[0mReferring to non-existent method static com.joshua.Main.main([java.lang.String)void[0m
 [0m[[0m[31merror[0m] [0m[0m  called from core module module initializers[0m
-[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 2466966 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mLinker: 2514071 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 1588945 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: 1622765 us[0m
 [0m[[0m[31merror[0m] [0m[0mThere were linking errors[0m
 [0m[[0m[31merror[0m] [0m[0m(Compile / [31mfastLinkJS[0m) There were linking errors[0m
