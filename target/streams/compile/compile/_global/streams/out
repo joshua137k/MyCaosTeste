@@ -1,6 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\Users\Joshu\Desktop\MyCaosTeste\src\main\scala\com\joshua\MyConfigurator.scala:15:15 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m    [31m"Hello"[0m -> view(_ => {[0m
-[0m[[0m[31merror[0m] [0m[0m   |               [31m^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |               Not found: view[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E164] Declaration Error: C:\Users\Joshu\Desktop\MyCaosTeste\src\main\scala\com\joshua\MyConfigurator.scala:11:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m11 |[0m  [33mdef[0m [36mlanguageName[0m = [31m"Demo"[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |error overriding [33mmethod[0m [35mlanguageName[0m in [33mtrait[0m [35mConfigurator[0m of type => String;[0m
+[0m[[0m[31merror[0m] [0m[0m   |  [33mmethod[0m [35mlanguageName[0m of type => String needs `override` modifier[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

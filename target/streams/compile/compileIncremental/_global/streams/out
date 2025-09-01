@@ -1,19 +1,60 @@
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
-[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 0 products, 0 sources, 0 libraries[0m
-[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/com/joshua/Main.scala, ${BASE}/src/main/scala/com/joshua/MyConfigurator.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/com/joshua/Main.scala, ${BASE}/src/main/scala/com/joshua/MyConfigurator.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
-[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
-[0m[[0m[0mdebug[0m] [0m[0mall 2 sources are invalidated[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 10 products, 3 sources, 1 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/com/joshua/CytoscapeRenderer.scala, ${BASE}/src/main/scala/com/joshua/Main.scala, ${BASE}/src/main/scala/com/joshua/MyConfigurator.scala, ${BASE}/src/main/scala/com/joshua/SimpleGraph.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/com/joshua/CytoscapeRenderer.scala), removed = Set(), changed = Set(${BASE}/src/main/scala/com/joshua/SimpleGraph.scala, ${BASE}/src/main/scala/com/joshua/Main.scala, ${BASE}/src/main/scala/com/joshua/MyConfigurator.scala), unmodified = ...),Set(),Set(),API Changes: Set(NamesChange(caos.frontend.widgets.WidgetInfo,ModifiedNames(changes = UsedName(WidgetInfo,[Default]), UsedName(VisualizeJsGraph,[Default]))), NamesChange(caos.frontend.Configurator,ModifiedNames(changes = UsedName(jsGraph,[Default]))), NamesChange(caos.frontend.Configurator$,ModifiedNames(changes = UsedName(jsGraph,[Default])))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe caos.frontend.widgets.WidgetInfo has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(WidgetInfo,[Default]), UsedName(VisualizeJsGraph,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) caos.frontend.widgets.WidgetInfo: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) caos.frontend.widgets.WidgetInfo.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of com.joshua.MyConfigurator: [WidgetInfo][0m
+[0m[[0m[0mdebug[0m] [0m[0mThe caos.frontend.Configurator has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(jsGraph,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) caos.frontend.Configurator: Set(com.joshua.MyConfigurator)[0m
+[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from com.joshua.MyConfigurator...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: com.joshua.MyConfigurator[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(com.joshua.MyConfigurator)[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.joshua.Main. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) caos.frontend.Configurator.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.joshua.Main. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.joshua.MyConfigurator. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe caos.frontend.Configurator$ has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(jsGraph,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) caos.frontend.Configurator$: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) caos.frontend.Configurator$.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.joshua.MyConfigurator. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(${BASE}/src/main/scala/com/joshua/CytoscapeRenderer.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/com/joshua/SimpleGraph.scala, ${BASE}/src/main/scala/com/joshua/Main.scala, ${BASE}/src/main/scala/com/joshua/MyConfigurator.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set(NamesChange(caos.frontend.widgets.WidgetInfo,ModifiedNames(changes = UsedName(WidgetInfo,[Default]), UsedName(VisualizeJsGraph,[Default]))), NamesChange(caos.frontend.Configurator,ModifiedNames(changes = UsedName(jsGraph,[Default]))), NamesChange(caos.frontend.Configurator$,ModifiedNames(changes = UsedName(jsGraph,[Default]))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(com.joshua.Main, com.joshua.MyConfigurator, com.joshua.SimpleGraph$package, com.joshua.SimpleGraphSOS, com.joshua.SimpleGraph)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set(com.joshua.MyConfigurator)[0m
+[0m[[0m[0mdebug[0m] [0m[0mall 4 sources are invalidated[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: com.joshua.Main, com.joshua.MyConfigurator, com.joshua.SimpleGraph$package, com.joshua.SimpleGraphSOS, com.joshua.SimpleGraph[0m
 [0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0 percent of all sources[0m
 [0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\Joshu\Desktop\MyCaosTeste\target\scala-3.1.1\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to C:\Users\Joshu\Desktop\MyCaosTeste\target\scala-3.1.1\classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: C:\Users\Joshu\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-sbt-bridge\3.1.1\scala3-sbt-bridge-3.1.1.jar.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 101a5880 for Scala Compiler version 3.1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 10b0b458 for Scala Compiler version 3.1.1[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-scalajs[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Joshu\Desktop\MyCaosTeste\target\scala-3.1.1\classes;C:\Users\Joshu\Desktop\MyCaosTeste\lib\caos\target\scala-3.1.1\classes;C:\Users\Joshu\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_sjs1_3\3.1.1\scala3-library_sjs1_3-3.1.1.jar;C:\Users\Joshu\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-library_2.13\1.7.1\scalajs-library_2.13-1.7.1.jar;C:\Users\Joshu\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\be\doeraene\scalajs-jquery_sjs1_2.13\1.0.0\scalajs-jquery_sjs1_2.13-1.0.0.jar;C:\Users\Joshu\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-dom_sjs1_2.13\1.2.0\scalajs-dom_sjs1_2.13-1.2.0.jar;C:\Users\Joshu\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\scalatags_sjs1_2.13\0.9.1\scalatags_sjs1_2.13-0.9.1.jar;C:\Users\Joshu\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar;C:\Users\Joshu\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\sourcecode_sjs1_2.13\0.2.1\sourcecode_sjs1_2.13-0.2.1.jar;C:\Users\Joshu\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\geny_sjs1_2.13\0.6.0\geny_sjs1_2.13-0.6.0.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mCompilation failed[0m
-[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 4.3070449 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
